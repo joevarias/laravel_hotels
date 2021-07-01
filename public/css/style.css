@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.img-hotel-gallery {
+    display: inline-block;
+    object-fit: cover;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+p.hotel-description {
+    white-space: pre-line;
+    text-align: left;
+}
+
+
+div.flex-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.flex-item {
+    flex: 1 1 auto;
+    line-height: 30px;
+}
+
+li.booking-details__price {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+div.bookingdetails-flex-container-__wrapper {
+    margin-left: -1rem!important;
+    margin-right: -1rem!important;
+}
+
+li.flex {
+    line-height: 30px;
+}
+
+div.alert {
+    border-radius: 0;
+}
+
+div.transaction__wrapper {
+    line-height: 30px;
+}
+
+tbody.reservation__tbody tr {
+    border-bottom: 1px solid #ededed;
+}
+
+tbody.reservation__tbody tr:last-child {
+    border-bottom: 0;
+}
+
+div.transaction__alert-success {
+    border-color: transparent;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul.transaction_number__wrapper {
+    margin-left: -.5rem!important;
+    margin-right: -.5rem!important;
+}
+
+div.transaction-rates__wrapper {
+    margin-left: -.5rem!important;
+    margin-right: -.5rem!important;
+    border: 1px solid #BFDBFE;
+}
+
+
+div.transaction-additional_notes__wrapper > p {
+    margin-bottom: 0;
+}
+
+div.cust-booking-confirmchanges-flex-container-__wrapper {
+    margin-left: -1rem!important;
+    margin-right: -1rem!important;
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) { 
+
+    .img-hotel-gallery {
+        width:  50px;
+        height: 50px;
+    }
+
+    div.booking-page__main-container {
+        text-align: center;
+    }
+
+    header.transaction__header {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    div.bookings-card__wrapper {
+        text-align: center;
+    }
+
+    div.bookings-hotel_name__wrapper {
+        margin-top: 10px;
+    }
+
+    div.transaction-image__wrapper {
+        text-align: center;
+    }
+
+    div.transaction-hotel_name__wrapper {
+        margin-top: 1rem;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+    .img-hotel-gallery {
+        width:  50px;
+        height: 50px;
+    }
+
+    div.booking-page__main-container {
+        text-align: center;
+    }
+
+    header.transaction__header {
+        text-align: left;
+    }
+
+    div.transaction_number__md_remove-margin {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    div.bookings-card__wrapper {
+        text-align: left;
+    }
+
+    div.bookings-button__wrapper {
+        margin-left: 212px;
+    }
+
+    div.bookings-hotel_name__wrapper {
+        margin-top: 0;
+    }
+
+    div.transaction-image__wrapper {
+        text-align: left;
+    }
+
+    div.transaction-hotel_name__wrapper {
+        margin-top: 0;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+    .img-hotel-gallery {
+        width:  75px;
+        height: 75px;
+    }
+
+    div.booking-page__main-container {
+        text-align: center;
+    }
+
+    header.transaction__header {
+        text-align: left;
+    }
+
+    div.transaction_number__md_remove-margin {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    div.bookings-card__wrapper {
+        text-align: left;
+    }
+
+    div.bookings-button__wrapper {
+        margin-left: 212px;
+    }
+
+    div.bookings-hotel_name__wrapper {
+        margin-top: 0;
+    }
+
+    div.transaction-image__wrapper {
+        text-align: left;
+    }
+
+    div.transaction-hotel_name__wrapper {
+        margin-top: 0;
+    }
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    .img-hotel-gallery {
+        width:  90px;
+        height: 90px;
+
+    }
+
+    div.booking-page__main-container {
+        text-align: left;
+    }
+
+    header.transaction__header {
+        text-align: left;
+    }
+
+    div.transaction_number__md_remove-margin {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    div.bookings-card__wrapper {
+        text-align: left;
+    }
+
+    div.bookings-button__wrapper {
+        margin-left: 212px;
+    }
+
+    div.bookings-hotel_name__wrapper {
+        margin-top: 0;
+    }
+
+    div.transaction-image__wrapper {
+        text-align: left;
+    }
+
+    div.transaction-hotel_name__wrapper {
+        margin-top: 0;
+    }
+
+}
